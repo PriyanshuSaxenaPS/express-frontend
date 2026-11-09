@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/express-frontend.git'
+                    url: 'https://github.com/PriyanshuSaxenaPS/express-frontend.git'
             }
         }
 
